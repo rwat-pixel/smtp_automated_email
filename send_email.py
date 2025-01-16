@@ -35,7 +35,7 @@ def send_email(subject, receiver_email, name, due_date, invoice_no, amount):
         I just wanted to drop you a quick note to remind you that {amount} INR in respect of our invoice {invoice_no} is due for payment on {due_date}.
         I would be really grateful if you could confirm that everything is on track for payment.
         Best regards
-        Alankrit Dabral
+        Sahil
         """
     )
 
@@ -47,8 +47,8 @@ def send_email(subject, receiver_email, name, due_date, invoice_no, amount):
 if __name__ == "__main__":
     send_email(
         subject="Invoice Reminder",
-        name="Sarthak",
-        receiver_email="srthkrajvanshi@gmail.com",
+        name="SRP",
+        receiver_email="srpmediamarketing@gmail.com",
         due_date="20, JUL 2024",
         invoice_no="INV-21-12-009",
         amount="5",
