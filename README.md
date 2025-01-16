@@ -1,1 +1,1 @@
-# smtp_automated_email
+# email
