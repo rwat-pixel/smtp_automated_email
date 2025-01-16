@@ -2,7 +2,7 @@ from datetime import date
 import pandas as pd
 from send_email import send_email
 
-SHEET_ID = "15Cu2fDuv0GrGt2AqGZP2KhxwGYL1GQwZ7c7CWFtfAP4"
+SHEET_ID = "1Z40zG0uqr1cdYqENkykhu1IfEYYrbzDMQDCbfe0CeLU"
 SHEET_NAME = "Sheet1"
 URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
 
